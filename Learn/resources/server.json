@@ -1,0 +1,63 @@
+{
+  "students": [
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "age": 17,
+      "grade": "11th",
+      "subjects": [
+        "Biology",
+        "Chemistry",
+        "History"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "David Johnson",
+      "age": 16,
+      "grade": "10th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Art"
+      ]
+    },
+    {
+      "grade": "12th",
+      "subjects": [
+        "Finance"
+      ],
+      "name": "Yuva",
+      "age": 22,
+      "id": "zafLXi96et8"
+    },
+    {
+      "name": "Priya",
+      "age": 20,
+      "grade": "10th",
+      "subjects": [
+        "Maths"
+      ],
+      "id": "y3lInlfixzM"
+    },
+    {
+      "name": "Priya",
+      "age": 20,
+      "grade": "10th",
+      "subjects": [
+        "Maths"
+      ],
+      "id": "2Fc9IEWBgj0"
+    },
+    {
+      "grade": "12th",
+      "subjects": [
+        "Physics"
+      ],
+      "name": "Dinesh",
+      "age": "22",
+      "id": "MjsPQTqR3GY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
