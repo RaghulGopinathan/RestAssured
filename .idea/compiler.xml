@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Petstore_framework" />
+        <module name="GoRest_framework" />
         <module name="api-automation-framework" />
         <module name="API-Testing-RestAssured" />
       </profile>

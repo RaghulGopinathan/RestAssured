@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/Learn/pom.xml" />
         <option value="$PROJECT_DIR$/Project/pom.xml" />
+        <option value="$PROJECT_DIR$/Petstore_framework/pom.xml" />
+        <option value="$PROJECT_DIR$/GoRest_framework/pom.xml" />
       </list>
     </option>
   </component>
