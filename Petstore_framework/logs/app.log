@@ -1,0 +1,6 @@
+2026-10-29 23:06:33.645 [main] INFO  api.test.UserTest - createUser method started
+2026-10-29 23:06:37.361 [main] INFO  api.test.UserTest - createUser method ended
+2026-10-29 23:06:37.373 [main] INFO  api.test.UserTest - getSingleUser method started
+2026-10-29 23:06:38.781 [main] INFO  api.test.UserTest - getSingleUser method ended
+2026-10-29 23:06:38.784 [main] INFO  api.test.UserTest - deleteUser method started
+2026-10-29 23:06:40.185 [main] INFO  api.test.UserTest - deleteUser method ended
