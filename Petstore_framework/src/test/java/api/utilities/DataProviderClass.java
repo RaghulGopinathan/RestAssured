@@ -5,13 +5,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 
+import java.io.File;
 import java.io.IOException;
 
 public class DataProviderClass {
 
    @DataProvider(name = "Usernames")
     public String[] getUserName() throws IOException {
-       String path = "C:\\Users\\raghul.g01\\OneDrive - Infosys Limited\\HUB Tickets\\Personal\\RestAssured\\Petstore_framework\\DataDriven_Payload.xlsx";
+       String path = System.getProperty("user.dir") + File.separator + "DataDriven_Payload.xlsx";
        XLUtility xlUtility = new XLUtility(path);
 
        String[] username = new String[xlUtility.getRowCount("Sheet1")];
@@ -25,7 +26,7 @@ public class DataProviderClass {
 
     @DataProvider(name="Userdata")
     public String[][] createUser() throws IOException {
-       String path = "C:\\Users\\raghul.g01\\OneDrive - Infosys Limited\\HUB Tickets\\Personal\\RestAssured\\Petstore_framework\\DataDriven_Payload.xlsx";
+       String path = System.getProperty("user.dir")+File.separator+"DataDriven_Payload.xlsx";
        XLUtility xlUtility = new XLUtility(path);
        String[][] userData = new String[xlUtility.getRowCount("Sheet1")][xlUtility.getCellCount("Sheet1",1)];
 

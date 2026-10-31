@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-31T16:53:14 IST" name="Test Suite" finished-at="2026-10-31T16:53:31 IST" duration-ms="17024">
+    <groups>
+    </groups>
+    <test started-at="2026-10-31T16:53:14 IST" name="Regression Tests" finished-at="2026-10-31T16:53:31 IST" duration-ms="17024">
+      <class name="api.test.UserTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTest@7b9a4292]" started-at="2026-10-31T16:53:14 IST" name="setupData" finished-at="2026-10-31T16:53:15 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="createUser()[pri:1, instance:api.test.UserTest@7b9a4292]" started-at="2026-10-31T16:53:15 IST" name="createUser" finished-at="2026-10-31T16:53:18 IST" duration-ms="3344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getSingleUser()[pri:2, instance:api.test.UserTest@7b9a4292]" started-at="2026-10-31T16:53:18 IST" name="getSingleUser" finished-at="2026-10-31T16:53:19 IST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+        <test-method signature="deleteUser()[pri:3, instance:api.test.UserTest@7b9a4292]" started-at="2026-10-31T16:53:19 IST" name="deleteUser" finished-at="2026-10-31T16:53:21 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- api.test.UserTest -->
+      <class name="api.test.DDTests">
+        <test-method signature="DDCreateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTests@12468a38]" started-at="2026-10-31T16:53:22 IST" name="DDCreateUser" data-provider="Userdata" finished-at="2026-10-31T16:53:24 IST" duration-ms="1449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RaghulUserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDCreateUser -->
+        <test-method signature="DDCreateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTests@12468a38]" started-at="2026-10-31T16:53:24 IST" name="DDCreateUser" data-provider="Userdata" finished-at="2026-10-31T16:53:25 IST" duration-ms="1501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1235]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YuvaUserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDCreateUser -->
+        <test-method signature="DDCreateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTests@12468a38]" started-at="2026-10-31T16:53:25 IST" name="DDCreateUser" data-provider="Userdata" finished-at="2026-10-31T16:53:26 IST" duration-ms="1432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1236]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PriyaUserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDCreateUser -->
+        <test-method signature="DDGetUser(java.lang.String)[pri:2, instance:api.test.DDTests@12468a38]" started-at="2026-10-31T16:53:27 IST" name="DDGetUser" data-provider="Usernames" finished-at="2026-10-31T16:53:28 IST" duration-ms="1423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RaghulUserName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDGetUser -->
+        <test-method signature="DDGetUser(java.lang.String)[pri:2, instance:api.test.DDTests@12468a38]" started-at="2026-10-31T16:53:28 IST" name="DDGetUser" data-provider="Usernames" finished-at="2026-10-31T16:53:29 IST" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YuvaUserName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDGetUser -->
+        <test-method signature="DDGetUser(java.lang.String)[pri:2, instance:api.test.DDTests@12468a38]" started-at="2026-10-31T16:53:29 IST" name="DDGetUser" data-provider="Usernames" finished-at="2026-10-31T16:53:31 IST" duration-ms="1323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PriyaUserName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDGetUser -->
+      </class> <!-- api.test.DDTests -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
