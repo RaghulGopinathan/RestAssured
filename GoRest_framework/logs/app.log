@@ -1,0 +1,6 @@
+x2026-10-31 20:22:09.433 [main] INFO  api.tests.UserTest - Creating a user
+2026-10-31 20:22:12.328 [main] INFO  api.tests.UserTest - A user created
+2026-10-31 20:32:54.592 [main] INFO  api.tests.UserTest - Creating a user
+2026-10-31 20:32:57.691 [main] INFO  api.tests.UserTest - A user created
+2026-10-31 20:43:04.669 [main] INFO  api.tests.UserTest - Creating a user
+2026-10-31 20:43:07.429 [main] INFO  api.tests.UserTest - A user created

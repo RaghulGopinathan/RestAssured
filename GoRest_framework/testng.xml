@@ -1,0 +1,12 @@
+<suite name="Regression Suite">
+    <listeners>
+        <listener class-name="api.utilities.ExtentReportManager"/>
+    </listeners>
+    <test name="Login Functionality">
+        <classes>
+            <!-- Fully qualified name: package.ClassName -->
+            <class name="api.tests.UserTest" />
+        </classes>
+    </test>
+
+</suite>

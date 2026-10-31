@@ -4,10 +4,11 @@ import api.endpoints.UserEndpoint;
 import api.payloads.User;
 import com.github.javafaker.Faker;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import static org.hamcrest.Matchers.equalTo;
 
 public class UserTest {
@@ -15,6 +16,7 @@ public class UserTest {
     UserEndpoint userEndpoint =  new UserEndpoint();;
     Faker faker = new Faker();
     User user = new User();
+    Logger logger;
 
 
     @BeforeClass
@@ -23,15 +25,20 @@ public class UserTest {
         user.setEmail(faker.internet().emailAddress());
         user.setGender("Male");
         user.setStatus("Active");
+
+        logger = LogManager.getLogger(this.getClass());
+
     }
 
     @Test(priority = 1)
     public void createUser(){
+        logger.info("Creating a user");
         Response response = userEndpoint.createUser(user);
         int userId = response.jsonPath().getInt("id");
         user.setUserId(userId);
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode,201);
+        logger.info("A user created");
     }
     @Test(priority = 2)
     public void getUser(){
