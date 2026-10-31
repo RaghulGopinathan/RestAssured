@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class DD_DataProvider {
 
-    XLUtility xlUtility = new XLUtility("C:\\Users\\raghul.g01\\OneDrive - Infosys Limited\\HUB Tickets\\Personal\\RestAssured\\GoRest_framework\\DataDriven_Payload.xlsx");
+    XLUtility xlUtility = new XLUtility( System.getProperty("user.dir") + "\\DataDriven_Payload.xlsx");
     String sheetName = "Sheet1";
     int rowCount;
     int columnCount;
